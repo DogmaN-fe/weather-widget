@@ -1,0 +1,29 @@
+.input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-style: groove;
+}
+
+.form_btn {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+
+    font-weight: 500;
+    color: rgb(43, 42, 42);
+
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-style: groove;
+
+    transition: color, background-color 0.3s ease;
+}
+
+.form_btn:hover {
+    color: rgb(43, 42, 42);
+    background-color: rgb(255, 255, 255);
+}

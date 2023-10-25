@@ -1,0 +1,45 @@
+.blockWeather {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}
+
+.showParametr {
+    
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-bottom: 30px;
+
+    box-sizing: content-box;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 15px;
+    font-weight: 600;
+    
+    color: rgb(43, 42, 42);
+    background-color: rgb(255, 255, 255);
+
+    border-style: groove;
+    border-radius: 30%;
+    border-color: rgb(0, 0, 0);
+}
+
+
+.showParametr:not(:last-child) {
+    margin-right: 10px;
+}
+
+.showParametr:first-child {
+
+
+    min-width: 140px;
+}
+
+.day_of_week {
+    text-transform: uppercase;
+    font-weight: 800;
+}
